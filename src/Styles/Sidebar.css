@@ -1,0 +1,76 @@
+.sidebar {
+  max-width: 240px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  height: 100vh;
+  background-color: #1b729b;
+}
+
+.sidebar-icons-white {
+    max-width:8%;
+    height:auto;
+    margin-right: 10px;
+    filter: invert(100%);
+    -webkit-filter: invert(100%);
+}
+
+.sidebar-icons-gray {
+  max-width:8%;
+  height:auto;
+  margin-right: 10px;
+  filter: invert(50%);
+  -webkit-filter: invert(50%);
+}
+
+@font-face {
+  font-family: 'titillium_websemibold';
+  src: url('../Fonts/webfontkit-titillium/titilliumweb-semibold-webfont.woff2') format('woff2'),
+       url('../Fonts/webfontkit-titillium/titilliumweb-semibold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'titillium_weblight';
+  src: url('../Fonts/webfontkit-titillium/titilliumweb-light-webfont.woff2') format('woff2'),
+       url('../Fonts/webfontkit-titillium/titilliumweb-light-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+.Titulo-sidebar {
+  margin-bottom: 70px;
+  font-family: titillium_websemibold;
+  color: #fff;
+  position: relative;
+  margin-right: 30px;
+}
+
+.Menu-item-white {
+  font-family: titillium_weblight;
+  color: #fff;
+  margin: 30em 0;
+}
+
+.Menu-item-gray {
+  font-family: titillium_weblight;
+  color: rgb(185, 185, 185);
+  margin: 30em 0;
+}
+
+.title-logo {
+  max-width:15%;
+  height:auto;
+  float: left;
+  margin-left: 24px;
+  margin-top: -3px;
+}
+
+.box-background-selected {
+  background-color: #145979;
+}
+
+.box-background-unselected {
+  background-color: #1b729b;
+}

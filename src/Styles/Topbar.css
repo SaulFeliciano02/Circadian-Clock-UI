@@ -1,0 +1,22 @@
+.topbar-container .dropdown {
+    float: left;
+    margin-left: 0px;
+    margin-top: 18px;
+    text-align: right;
+}
+
+.topbar-container img {
+    max-width: 3%;
+    height: auto;
+    padding-top: 7px;
+    position: relative;
+    float: left;
+    padding-left: 75%;
+}
+
+.topbar-container {
+    float: right;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    box-sizing: content-box;
+    width: 84.2%;
+}
